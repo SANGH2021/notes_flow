@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:notes_flow/screens/add_read_delete_update_page.dart';
+import 'package:notes_flow/screens/splash_screen.dart';
 import 'package:notes_flow/screens/welcome_page.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: WelcomePage(),
+      home: SplashScreen(),
     );
   }
 }
